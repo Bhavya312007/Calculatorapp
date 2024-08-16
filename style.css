@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@700&family=Roboto:ital,wght@1,500&display=swap');
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    font-family:'ubuntu',sans-serif;
+}
+button{
+    padding:20px;
+    margin:0 4px;
+    width: 60px;
+    border:2px solid black;
+    border-radius:9px;
+    cursor:pointer;
+}
+
+.row{
+    margin:0.5vh 0px;
+}
+
+.row input{
+    margin:0;
+    padding:7px 0px;
+    width: 275px;
+    border:3px solid black;
+    border-radius:5px;
+    font-size: 19px;
+}
+
+.return{
+    padding:15px;
+    /* justify-self: flex-end; */
+}
+
+.grid{
+    display: grid;
+}
+.self-center{
+    /* display:block; */
+    justify-self: center;
+}
+.self-end{
+    /* display:block; */
+    margin:0vh 10px;
+    justify-self: end;
+}
+.justify-self{
+    /* justify-self: center; */
+    justify-content: center;
+}
